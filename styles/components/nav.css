@@ -1,0 +1,23 @@
+nav {
+    height: 10vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    margin: 0px 5px;
+
+}
+
+.nav-links {
+    margin-left: 20px;
+}
+
+.social-links {
+    margin-right: 20px;
+}
