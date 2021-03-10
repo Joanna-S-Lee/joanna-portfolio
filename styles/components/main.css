@@ -3,12 +3,11 @@ main {
     height: 90vh;
     background-position: center;
     background-size: cover;
+
     
 }
 
-@media only screen and (max-width: 700px) {
 
-}
 
 main .title-container {
     height: 50%;
@@ -30,10 +29,22 @@ main h3 {
     margin: 0px;
 
 }
-
-main .profilepic {
+.profile {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
+   
+    
 }
 
+.profile img {
+    height: 300px;
+    border-radius: 50%;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 750px) {
+    main h1 {
+        font-size: 40px;
+    }
+
+}

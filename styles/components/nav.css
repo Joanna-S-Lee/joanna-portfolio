@@ -4,6 +4,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 nav a {
@@ -16,11 +17,52 @@ nav a {
 
 .nav-links {
     margin-left: 20px;
-}
-
-.icon {
     display: flex;
-    
-    
 }
 
+
+
+
+.hamburger {
+    display: none;
+}
+
+.hamburger-links {
+    display: none;
+    background: transparent;
+    position: fixed;
+    top: 10vh;
+    z-index: 2;
+    background: white;
+    width: 100vw;
+    list-style: none;
+    margin: 0px;
+}
+
+.hamburger-links {
+    text-align: center;
+}
+
+.hamburger-links a {
+    text-decoration: none;
+    color: black;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.social-hamburger {
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 500px) {
+    .blog-projects {
+        display: none;
+    }
+    .social-links {
+      display: none;
+      
+    }
+    .hamburger {
+      display: block;
+    }
+  }
