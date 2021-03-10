@@ -55,6 +55,16 @@ main h3 {
 
 .blog {
     background-image: url(/frame-harirak-PMBOOpEVgtM-unsplash.jpg);
+    opacity: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.projects {
+    background: none;
+    background: #68a691;
 }
 
 @media only screen and (max-width: 750px) {

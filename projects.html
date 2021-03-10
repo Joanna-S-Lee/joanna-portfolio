@@ -26,28 +26,32 @@
         <div class="blog-projects">
           <a href="/projects.html">Projects</a>
           <a href="/blog.html">Blog</a>
+          <a href="/contact-me.html">Contact Me</a>
         </div>
       </section>
-      <section class="social-links">
-        <div class="icon">
-          <a href="https://github.com/Joanna-S-Lee/">
-            <img src="/iconmonstr-github-1.svg" alt="Github" />
-          </a>
-        </div>
+      <div class="social-hamburger">
+        <section class="social-links">
+          <div class="icon">
+            <a href="https://github.com/Joanna-S-Lee/">
+              <img src="/iconmonstr-github-1.svg" alt="Github" />
+            </a>
+          </div>
+        </section>
         <div class="icon">
           <a href="https://www.linkedin.com/in/joanna-song-chea-lee-7a162743/">
             <img src="/iconmonstr-linkedin-3.svg" alt="LinkedIn" />
           </a>
         </div>
-      </section>
-      <button
-        class="hamburger hamburger--collapse button-outline"
-        type="button"
-      >
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
+
+        <button
+          class="hamburger hamburger--collapse button-outline"
+          type="button"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
     </nav>
     <ul class="hamburger-links">
       <li><a href="">Projects</a></li>
@@ -55,6 +59,21 @@
       <li><a href="">LinkedIn</a></li>
       <li><a href="">Github</a></li>
     </ul>
-    <h1>Projects</h1>
+    <main class="projects">
+      <h1>Projects</h1>
+    </main>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const links = document.querySelector(".hamburger-links");
+      hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("is-active");
+        const isActive = hamburger.classList.contains("is-active");
+        if (isActive) {
+          links.style.display = "block";
+        } else {
+          links.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>
