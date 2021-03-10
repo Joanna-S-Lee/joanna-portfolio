@@ -42,6 +42,21 @@ main h3 {
     justify-content: space-around;
 }
 
+.about-me-description {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+.rectangle {
+    background: #694f5d;
+}
+
+.blog {
+    background-image: url(/frame-harirak-PMBOOpEVgtM-unsplash.jpg);
+}
+
 @media only screen and (max-width: 750px) {
     main h1 {
         font-size: 40px;
