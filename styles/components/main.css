@@ -1,5 +1,5 @@
-main {
-    background-image: url(../../phillip-larking-dl0VYTREZ3g-unsplash.jpg);
+.main-background {
+    background-image: url(../../phillip-larking-dl0VYTREZ3g-unsplash.resized.jpg);
     height: 90vh;
     background-position: center;
     background-size: cover;
@@ -53,19 +53,7 @@ main h3 {
     background: #694f5d;
 }
 
-.blog {
-    background-image: url(/frame-harirak-PMBOOpEVgtM-unsplash.jpg);
-    opacity: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    
-}
 
-.projects {
-    background: none;
-    background: #68a691;
-}
 
 @media only screen and (max-width: 750px) {
     main h1 {

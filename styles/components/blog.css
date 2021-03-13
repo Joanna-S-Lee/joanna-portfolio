@@ -1,0 +1,16 @@
+/* blog background */
+.blog-background {
+    background-image: url(/frame-harirak-PMBOOpEVgtM-unsplash.jpg);
+    height: 90vh;
+    opacity: 60%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+/* blog title formatting */
+.blog-title {
+    color: #694f5d;
+
+}
