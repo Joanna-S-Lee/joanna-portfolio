@@ -16,11 +16,13 @@
 .amigurumi {
   display: flex;
   justify-content: center;
+  height: 60vh;
 }
 
 .poke {
   display: flex;
   justify-content: center;
+  height: 60vh;
 }
 
 .lastwish {
@@ -29,6 +31,8 @@
   height: 70vh;
 }
 
-p.a {
-    font-style: italic;
+.golden {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
 }
