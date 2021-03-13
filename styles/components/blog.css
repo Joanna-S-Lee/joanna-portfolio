@@ -1,16 +1,34 @@
 /* blog background */
 .blog-background {
-    background-image: url(/frame-harirak-PMBOOpEVgtM-unsplash.jpg);
-    height: 90vh;
-    opacity: 60%;
-    height: 90vh;
-    background-position: center;
-    background-size: cover;
-   
+  background-color: #d5cfe1;
 }
 
 /* blog title formatting */
 .blog-title {
-    color: #694f5d;
+  color: #694f5d;
+}
 
+.civilwars {
+  display: flex;
+  justify-content: center;
+}
+
+.amigurumi {
+  display: flex;
+  justify-content: center;
+}
+
+.poke {
+  display: flex;
+  justify-content: center;
+}
+
+.lastwish {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+}
+
+p.a {
+    font-style: italic;
 }

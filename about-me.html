@@ -17,6 +17,7 @@
     <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
+    <!--nav bar-->
     <nav>
       <section class="nav-links">
         <div class="home">
@@ -41,6 +42,7 @@
           </a>
         </div>
       </section>
+      <!--hamburger-->
       <button
         class="hamburger hamburger--collapse button-outline"
         type="button"
@@ -57,6 +59,21 @@
       <li><a href="">Github</a></li>
       <li><a href="">Contact Me</a></li>
     </ul>
+    <!--This is the main content-->
     <h1>About Me</h1>
+    <!--hamburger script-->
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const links = document.querySelector(".hamburger-links");
+      hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("is-active");
+        const isActive = hamburger.classList.contains("is-active");
+        if (isActive) {
+          links.style.display = "block";
+        } else {
+          links.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>

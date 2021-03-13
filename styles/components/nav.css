@@ -1,3 +1,4 @@
+/* nav bar formatting */
 nav {
     height: 10vh;
     background: #BFD3C1;
@@ -20,9 +21,7 @@ nav a {
     display: flex;
 }
 
-
-
-
+/* hamburger formatting */
 .hamburger {
     display: none;
 }

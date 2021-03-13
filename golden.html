@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joanna Lee | Student, Beginner Developer</title>
+    <title>Ramblings of a Beginner Developer</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css " />
+    <link rel="stylesheet" href="style.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -59,54 +59,21 @@
       <li><a href="">Blog</a></li>
       <li><a href="">LinkedIn</a></li>
       <li><a href="">Github</a></li>
+      <li><a href="">Contact Me</a></li>
     </ul>
-    <!--This is the main content-->
-    <main class="main-background">
-      <div class="title-container">
-        <h1>Joanna Lee</h1>
-        <h3>Student</h3>
-      </div>
-      <div class="profile">
-        <img src="/Joanna Lee.jpg" alt="profile-picture" />
-      </div>
-      <div class="rectangle">
-        <div class="about-me-description">          
-          <p>Sed
-            nesciunt aliquam ducimus adipisci quidem voluptatem cupiditate
-            impedit? Mollitia, dicta quaerat?
-          </p>
-        </div>
-      </div>
-      <div class="programminglanguages">
-        <h2>Programming Languages</h2>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-
-      </div>
-      <div class="languages">
-        <h2>Languages</h2>
-        <p>English</p>
-        <p>Mandarin</p>
-        <p>Malay</p>
-        <p>German</p>
-        <p>French</p>
-      </div>
-    </main>
-    <!--hamburger script-->
     <script>
-      const hamburger = document.querySelector(".hamburger");
-      const links = document.querySelector(".hamburger-links");
-      hamburger.addEventListener("click", function () {
-        hamburger.classList.toggle("is-active");
-        const isActive = hamburger.classList.contains("is-active");
-        if (isActive) {
-          links.style.display = "block";
-        } else {
-          links.style.display = "none";
-        }
-      });
-    </script>
-  </body>
-</html>
+        const hamburger = document.querySelector(".hamburger");
+        const links = document.querySelector(".hamburger-links");
+        hamburger.addEventListener("click", function () {
+          hamburger.classList.toggle("is-active");
+          const isActive = hamburger.classList.contains("is-active");
+          if (isActive) {
+            links.style.display = "block";
+          } else {
+            links.style.display = "none";
+          }
+        });
+      </script>
+    </body>
+  </html>
+  

@@ -1,64 +1,55 @@
+/* homepage background */
 .main-background {
-    background-image: url(../../phillip-larking-dl0VYTREZ3g-unsplash.resized.jpg);
-    height: 90vh;
-    background-position: center;
-    background-size: cover;
-
-    
+  background-image: url(../../phillip-larking-dl0VYTREZ3g-unsplash.resized.jpg);
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
 }
 
-
-
 main .title-container {
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 main h1 {
-    margin: 0px;
-    color: #EAB5AE;
-    font-size: 70px;
+  margin: 0px;
+  color: #eab5ae;
+  font-size: 70px;
 }
 
 main h3 {
-    color: #FFE5D4;
-    font-size: 30px;
-    margin: 0px;
-
+  color: #ffe5d4;
+  font-size: 30px;
+  margin: 0px;
 }
+
+/*homepage profile picture */
 .profile {
-    display: flex;
-    justify-content: center;
-   
-    
+  display: flex;
+  justify-content: center;
 }
 
 .profile img {
-    height: 300px;
-    border-radius: 50%;
-    justify-content: space-around;
+  height: 300px;
+  border-radius: 50%;
+  justify-content: space-around;
 }
 
 .about-me-description {
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-
+  display: flex;
+  justify-content: center;
+  margin: 0px;
 }
 
 .rectangle {
-    background: #694f5d;
+  background: #694f5d;
 }
-
-
 
 @media only screen and (max-width: 750px) {
-    main h1 {
-        font-size: 40px;
-    }
-
+  main h1 {
+    font-size: 40px;
+  }
 }
-
