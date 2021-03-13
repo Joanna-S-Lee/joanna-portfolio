@@ -1,3 +1,7 @@
+main .aboutme-container {
+    background-color: #d5cfe1;
+}
+
 .profile2 {
   display: flex;
   justify-content: flex-start;
@@ -6,3 +10,36 @@
   height: 300px;
   width: 80%;
 }
+
+.cs-icons-container {
+    display: flex;
+    
+}
+
+.rubyrails-icon {
+    margin-left: 30px;
+    font-size: 100px;
+    
+}
+
+.css-icon {
+    margin-left: 30px;
+    font-size: 100px;
+    
+}
+.html-icon {
+    margin-left: 30px;
+    font-size: 100px;
+    
+}
+.javascript-icon {
+    margin-left: 30px;
+    font-size: 100px;
+    
+}
+
+@media only screen and (max-width: 750px) {
+    main h1 {
+      font-size: 40px;
+    }
+  }
