@@ -1,9 +1,12 @@
 /* homepage background */
 .main-background {
-  background-image: url(../../phillip-larking-dl0VYTREZ3g-unsplash.resized.jpg);
+  background-image: url(/phillip-larking-dl0VYTREZ3g-unsplash.resized.jpg);
   height: 90vh;
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
+  background-color: #b6a6ca;
 }
 
 main .title-container {
@@ -33,23 +36,17 @@ main h3 {
 }
 
 .profile img {
-  height: 300px;
+  height: 225px;
   border-radius: 50%;
-  justify-content: space-around;
+  
 }
 
-.about-me-description {
-  display: flex;
-  justify-content: center;
-  margin: 0px;
-}
-
-.rectangle {
-  background: #694f5d;
-}
 
 @media only screen and (max-width: 750px) {
   main h1 {
     font-size: 40px;
+  }
+  body {
+    background-image: url(/phillip-larking-dl0VYTREZ3g-unsplash.resized.jpg);
   }
 }
