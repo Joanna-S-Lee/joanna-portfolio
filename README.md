@@ -1,5 +1,5 @@
 Link to published portfolio: https://github.com/Joanna-S-Lee/joanna-portfolio
-Link to deployed site: https://dazzling-shannon-fd45ad.netlify.app/
+Link to deployed site: https://friendly-shockley-fe6685.netlify.app/projects.html
 
 Purpose of portfolio: To act as an interactive resume and insight to who I am.
 

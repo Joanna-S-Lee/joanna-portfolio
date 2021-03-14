@@ -1,10 +1,10 @@
 /* main stylesheet */
 
-@import "/src/styles/globals.css";
-@import "/src/styles/components/nav.css";
-@import "/src/styles/components/main.css";
-@import "/src/styles/hamburger/style.css";
-@import "/src/styles/components/about-me.css";
-@import "/src/styles/components/contactme.css";
-@import "/src/styles/components/blog.css";
-@import "/src/styles/components/projects.css"
+@import "/styles/globals.css";
+@import "/styles/components/nav.css";
+@import "/styles/components/main.css";
+@import "/styles/hamburger/style.css";
+@import "/styles/components/about-me.css";
+@import "/styles/components/contactme.css";
+@import "/styles/components/blog.css";
+@import "/styles/components/projects.css"
