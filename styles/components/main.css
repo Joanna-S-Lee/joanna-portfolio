@@ -10,6 +10,7 @@
   border: 10px solid #d4bebe;
 }
 
+/* homepage formatting */
 main .title-container {
   height: 40%;
   display: flex;
@@ -42,7 +43,7 @@ main h3 {
   
 }
 
-
+/* media query for responsive design */
 @media only screen and (max-width: 750px) {
   main h1 {
     font-size: 40px;

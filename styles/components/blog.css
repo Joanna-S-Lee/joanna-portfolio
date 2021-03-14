@@ -23,6 +23,7 @@
   text-align: center;
 }
 
+/* specific blog posts formatting */
 .civilwars {
   display: flex;
   justify-content: center;
@@ -53,6 +54,7 @@
   height: 30vh;
 }
 
+/* media query for responsive design */
 @media only screen and (max-width: 750px) {
   main h1 {
     font-size: 40px;

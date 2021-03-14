@@ -1,3 +1,13 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* contact me header formatting */
 .contactme-banner {
   background-color: black;
   font-weight: bold;
@@ -9,7 +19,7 @@
 }
 
 .contactme-background {
-  background-image: url(/edward-howell-HXCVD8SYcQM-unsplash.resized.jpg);    
+  background-color: #dfd7e9;   
   height: 90vh;
   position: relative;
   opacity: 90%;
@@ -20,12 +30,42 @@
   border: 10px solid #d4bebe;
   }
 
-.contactme-title {
-  
+.contactme-form {
+  margin-top: 50px;
+
+ 
+}
+
+/* contact form formatting */
+.form-control {
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+  margin-left: 50px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+/* form submit button */
+.form-control-submit {
+  background: #eab5ae;
+  border-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 100px;
   
 }
 
-
+/* media query for responsive design */
   @media only screen and (max-width: 750px) {
     main h1 {
       font-size: 40px;
