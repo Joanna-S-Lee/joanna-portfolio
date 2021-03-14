@@ -1,6 +1,7 @@
 /* blog background */
 .blog-background {
   background-color: #d5cfe1;
+  border: 10px solid #d4bebe;
 }
 
 /* blog title formatting */
@@ -8,9 +9,24 @@
   color: #694f5d;
 }
 
+.blog-border {
+  border: 10px solid #d4bebe;
+}
+
+.blog-banner{
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
 .civilwars {
   display: flex;
   justify-content: center;
+  
 }
 
 .amigurumi {
@@ -34,5 +50,14 @@
 .golden {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 30vh;
+}
+
+@media only screen and (max-width: 750px) {
+  main h1 {
+    font-size: 40px;
+  }
+  .icon {
+    display: none;
+  }
 }

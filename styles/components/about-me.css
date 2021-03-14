@@ -9,15 +9,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     vertical-align: bottom;
+    border: 10px solid #d4bebe;
 }
 
 .aboutme-title{
   background-color: black;
+  font-weight: bold;
   color: white;
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
   text-align: center;
+}
+
+h4 {
+  background-color: #ffe5d4;
+  padding: 10px;
+  margin-right: 20px;
+  justify-content: space-around;
+  
 }
 .profile2 {
   display: flex;
@@ -62,6 +72,17 @@ ul {
   font-size: 100px;
 }
 
+.languages {
+  background-color: #b6a6ca;
+  border: 10px solid #d4bebe;
+}
+
+ul {
+  background-color: #ffe5d4;
+  border-radius: 40px;
+  padding: 20px;
+  
+}
 @media only screen and (max-width: 750px) {
   main h1 {
     font-size: 40px;

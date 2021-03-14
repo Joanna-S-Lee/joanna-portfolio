@@ -1,0 +1,41 @@
+.contactme-banner {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.contactme-background {
+  background-image: url(/edward-howell-HXCVD8SYcQM-unsplash.resized.jpg);    
+  height: 90vh;
+  position: relative;
+  opacity: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: bottom;
+  border: 10px solid #d4bebe;
+  }
+
+.contactme-title {
+  
+  
+}
+
+
+  @media only screen and (max-width: 750px) {
+    main h1 {
+      font-size: 40px;
+    }
+    .aboutme-container {
+      width: 480px;
+    }
+    .contactme-title {
+      margin-top: 70px;
+      margin-left: none;
+    }
+    
+  }

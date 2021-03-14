@@ -1,6 +1,6 @@
 /* projects page formatting */
 .projects-background {
-    background-image: url(/bart-van-geffen-zr6HawGeAUc-unsplash.jpg);    
+    background-image: url(/bart-van-geffen-zr6HawGeAUc-unsplash.resized.jpg);    
     height: 90vh;
     position: relative;
     opacity: 90%;
@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     vertical-align: bottom;
+    border: 10px solid #d4bebe;
     
 }
 
@@ -32,3 +33,14 @@
     height: 30vh;
 }
 
+@media only screen and (max-width: 750px) {
+    main h1 {
+      font-size: 40px;
+    }
+    .icon {
+      display: none;
+    }
+    
+    
+
+  }
