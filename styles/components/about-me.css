@@ -1,58 +1,54 @@
-main .aboutme-container {
-    background-color: #d5cfe1;
-    
+.aboutme-container {
+  
 }
 
 .profile2 {
   display: flex;
-  justify-content: flex-start;
   margin-left: 30px;
-  border-radius: 50%;
   height: 300px;
   width: 80%;
+  justify-content: center;
 }
 
 ul {
-    list-style-type: none;
-    
+  list-style-type: none;
 }
 
 .cs-icons-container1 {
-    display: flex;
-    flex-direction: row;
-    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  
 }
 
 .cs-icons-container2 {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .rubyrails-icon {
-    margin-left: 30px;
-    font-size: 100px;
-    
+  margin-left: 30px;
+  font-size: 100px;
 }
 
 .css-icon {
-    margin-left: 30px;
-    font-size: 100px;
-    
+  margin-left: 30px;
+  font-size: 100px;
 }
 .html-icon {
-    margin-left: 30px;
-    font-size: 100px;
-    
+  margin-left: 30px;
+  font-size: 100px;
 }
 .javascript-icon {
-    margin-left: 30px;
-    font-size: 100px;
-    
+  margin-left: 30px;
+  font-size: 100px;
 }
 
 @media only screen and (max-width: 750px) {
-    main h1 {
-      font-size: 40px;
-    }
+  main h1 {
+    font-size: 40px;
   }
+  .aboutme-container {
+    width: 480px;
+  }
+}
