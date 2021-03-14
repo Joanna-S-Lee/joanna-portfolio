@@ -10,7 +10,7 @@
 }
 
 main .title-container {
-  height: 50%;
+  height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -46,7 +46,7 @@ main h3 {
   main h1 {
     font-size: 40px;
   }
-  body {
-    background-image: url(/phillip-larking-dl0VYTREZ3g-unsplash.resized.jpg);
+  .icon {
+    display: none;
   }
 }
