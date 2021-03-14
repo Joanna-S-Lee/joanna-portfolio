@@ -1,0 +1,131 @@
+commit 8c35493137045a0054f6bf7ef823a60ba762b7e4
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 20:42:00 2021 +1100
+
+    added readme.md file
+
+commit 8b8b382e30d525aa297d3b1c8f52b1b2f4f816ef
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 20:05:08 2021 +1100
+
+    encountered issues with SRI hashes, removed them so that CSS will work
+
+commit 39f90b94a40412f548acdae92ac630e3760fca18
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 19:14:43 2021 +1100
+
+    SRI added to stylesheets
+
+commit 22eb7f843a37049265892f433191452de5a193e4
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 18:30:02 2021 +1100
+
+    added comments for clearer code, last few edits
+
+commit cf06030819a0f609f622b7240ce6d0dbbffe3c64
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 17:22:58 2021 +1100
+
+    fixed white space issues, added more visual consistency
+
+commit 7e375b1e89f0ed5baea05c6940ebffe6ca841df3
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 15:07:40 2021 +1100
+
+    worked on about me page
+
+commit 418f5142443c9c4755ce3311b4a865e4db53ddba
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 12:31:13 2021 +1100
+
+    modified projects page
+
+commit 92bab5249c8315c50a0ed3901170510070bd954c
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 11:00:35 2021 +1100
+
+    fixed hiding social links when mobile
+
+commit 7058b59f0be006f596d0a610412c67155a571e9c
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 10:50:19 2021 +1100
+
+    fixed homepage image fit issues
+
+commit 9e4f80e57ceb1e40cd350b21948cf8c4d57a5abe
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 06:21:58 2021 +1100
+
+    worked on aboutme, adjusting responsiveness
+
+commit a9dd8443de8d4a24bd900860a35ecec64e87114e
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 05:50:12 2021 +1100
+
+    fixed hamburger links, socials now open in new tab
+
+commit b7c86f1cc2d4360d2ad7681f2a58699a07bf92ba
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 05:00:47 2021 +1100
+
+    added changes to aboutme page
+
+commit d3ed9658ac924c2bef5643b27b06269d6909502c
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 03:57:15 2021 +1100
+
+    worked on blog posts
+
+commit f733deebeb24542872901944fa0817c02f62bea0
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sun Mar 14 00:08:17 2021 +1100
+
+    adding html and css comments, tidied up css links
+
+commit db3f075013c427dbcd616823500e6000fb5d7fef
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Sat Mar 13 18:24:56 2021 +1100
+
+    worked on contact form
+
+commit 9e19cff5de5847fb156e6c647077910c0b3ed359
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Wed Mar 10 16:49:59 2021 +1100
+
+    added Contact Me page, modified navbar for extra page
+
+commit cc398eb3ebb7af40f9d7ccfde1884cab1f637659
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Wed Mar 10 15:48:47 2021 +1100
+
+    changed blog.html SM links, added img
+
+commit 5a848ca8c3e42d780282e6ef657dbd903e54b04c
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Wed Mar 10 15:08:40 2021 +1100
+
+    added empty div
+
+commit 63d18a9c79ab6ead26703fb4d4060c6ef9519208
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Wed Mar 10 14:43:03 2021 +1100
+
+    added abt me description
+
+commit a28badd1e11e3528df9c1c672b6b4cce9a8a6042
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Wed Mar 10 14:36:32 2021 +1100
+
+    added profile pic, fixed SM links
+
+commit 24e78db4747f674bfd25238e8ddac9cf248001e0
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Tue Mar 9 23:14:33 2021 +1100
+
+    added profile pic and icons
+
+commit 910b4f1b3ccff6e5bea488d9a6c9a002bfcc50cb
+Author: Joanna-S-Lee <annaoj91@gmail.com>
+Date:   Tue Mar 9 19:11:08 2021 +1100
+
+    started homepage

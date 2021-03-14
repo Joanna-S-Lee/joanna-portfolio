@@ -1,5 +1,5 @@
 Link to published portfolio: https://github.com/Joanna-S-Lee/joanna-portfolio
-Link to deployed site: 
+Link to deployed site: https://dazzling-shannon-fd45ad.netlify.app/
 
 Purpose of portfolio: To act as an interactive resume and insight to who I am.
 
@@ -7,22 +7,22 @@ Target Audience: Potential employers and other developers.
 
 Sitemap:
 
-![](T1A1-Portfolio/sitemap.PNG)
+![](docs/sitemap.PNG)
 
 Screenshots:
 
 Homepage
-![](T1A1-Portfolio/homepage.PNG)
+![](docs/homepage.PNG)
 
 About Me
-![](T1A1-Portfolio/aboutme.PNG)
+![](docs/aboutme.PNG)
 
 Blog
-![](T1A1-Portfolio/blog.PNG)
+![](docs/blog.PNG)
 
 Contact Me
-![](T1A1-Portfolio/contactme.PNG)
+![](docs/contactme.PNG)
 
 Projects
-![](T1A1-Portfolio/projects.PNG)
+![](docs/projects.PNG)
 

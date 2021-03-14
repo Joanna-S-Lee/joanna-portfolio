@@ -4,30 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joanna Lee | Student, Beginner Developer</title>
+    <title>The Sweetest boy</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css " />
+    <link rel="stylesheet" href="/src/style.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" integrity="sha512-SpJeC7j+s5l2Il6KAkx1IvUpOpglUqkfoemigg1Ob986Fl0eBJ3So1ayDvY9sQC2QION5aML9wNk/E3ZdydZkA==" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <!--nav bar-->
     <nav>
       <section class="nav-links">
         <div class="home">
-          <a href="/">Home</a>
-          <a href="/about-me.html">About Me</a>
+          <a href="/src/index.html">Home</a>
+          <a href="/src/about-me.html">About Me</a>
         </div>
         <div class="blog-projects">
-          <a href="/projects.html">Projects</a>
-          <a href="/blog.html">Blog</a>
-          <a href="/contact-me.html">Contact Me</a>
+          <a href="/src/projects.html">Projects</a>
+          <a href="/src/blog.html">Blog</a>
+          <a href="/src/contact-me.html">Contact Me</a>
         </div>
       </section>
       <div class="social-hamburger">
@@ -55,36 +55,45 @@
       </div>
     </nav>
     <ul class="hamburger-links">
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="blog.html">Blog</a></li>
+      <li><a href="/src/projects.html">Projects</a></li>
+      <li><a href="/src/blog.html">Blog</a></li>
       <li><a href="https://www.linkedin.com/in/joanna-song-chea-lee-7a162743/" target="_blank">LinkedIn</a></li>
       <li><a href="https://github.com/Joanna-S-Lee/" target="_blank">Github</a></li>
-      <li><a href="contact-me.html">Contact Me</a></li>
+      <li><a href="/src/contact-me.html">Contact Me</a></li>
     </ul>
-    <!--This is the main content-->
-    <main class="main-background">
-      <div class="title-container">
-        <h1>Joanna Lee</h1>
-        <h3>Student</h3>
-      </div>
-      <div class="profile">
-        <img src="/Joanna Lee.jpg" alt="profile-picture" />
-      </div>
-      
+    <!--blog post-->
+    <main class="blog-border">
+        <h2 style="color: #694F5D; margin-left: 30px; font-weight: bold;">
+            <a href="golden.html">The Sweetest Boy</a> 
+          </h2>
+          <p style="font-size: large; color: #694F5D; margin-left: 30px; font-weight: bold;">
+            March 10th 2021
+          </p>
+          <div>
+              <p style="margin-left: 30px">
+                  I'm very much a dog person and Pepper was my first dog. 
+                  He was the sweetest dog, very patient and very smiley. :)
+                  Golden Retrievers are the smiliest of dogs I swear. Very friendly and quite loving.
+              </p>
+              <div class="golden">
+              <img src="/golden.png" alt="golden" />
+              </div>
+          </div>
     </main>
     <!--hamburger script-->
     <script>
-      const hamburger = document.querySelector(".hamburger");
-      const links = document.querySelector(".hamburger-links");
-      hamburger.addEventListener("click", function () {
-        hamburger.classList.toggle("is-active");
-        const isActive = hamburger.classList.contains("is-active");
-        if (isActive) {
-          links.style.display = "block";
-        } else {
-          links.style.display = "none";
-        }
-      });
-    </script>
-  </body>
-</html>
+        const hamburger = document.querySelector(".hamburger");
+        const links = document.querySelector(".hamburger-links");
+        hamburger.addEventListener("click", function () {
+          hamburger.classList.toggle("is-active");
+          const isActive = hamburger.classList.contains("is-active");
+          if (isActive) {
+            links.style.display = "block";
+          } else {
+            links.style.display = "none";
+          }
+        });
+      </script>
+    </body>
+  </html>
+  
