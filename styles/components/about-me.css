@@ -1,13 +1,31 @@
-.aboutme-container {
-  
+
+
+.aboutme-background {
+    background-image: url(/frame-harirak-PMBOOpEVgtM-unsplash.jpg);    
+    height: 90vh;
+    position: relative;
+    opacity: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: bottom;
 }
 
+.aboutme-title{
+  background-color: black;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  text-align: center;
+}
 .profile2 {
   display: flex;
   margin-left: 30px;
   height: 300px;
   width: 80%;
   justify-content: center;
+  border-radius: 50%;
 }
 
 ul {
